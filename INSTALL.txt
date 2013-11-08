@@ -1,0 +1,9 @@
+= Installation instructions =
+
+As NTLM gives access to some private information about your current workstation (username, domainname and workstationname), this is disabled by default.
+
+In Internet Explorer you need to add the URL of this community to the Intranet Zone.  
+For more information about the different zones read http://support.microsoft.com/kb/174360
+
+In Firefox you need to add the URL of this community to the trusted URis.  
+For more information read http://kb.mozillazine.org/Network.automatic-ntlm-auth.trusted-uris
