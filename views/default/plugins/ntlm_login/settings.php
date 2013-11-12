@@ -62,8 +62,8 @@
 	$content .= "<div class='pbs'>" . elgg_view("output/url", array(
 		"text" => elgg_echo("add"),
 		"href" => "#",
-		"class" => "elgg-button elgg-button-action",
-		"onclick" => "elgg.ntlm_login.admin.add_organisation(this);"
+		"class" => "elgg-button elgg-button-action float-alt",
+		"onclick" => "elgg.ntlm_login.admin.add_organisation(this);return false;"
 	)) . "</div>";
 	
 	// organisation form template
