@@ -1,3 +1,7 @@
+DEPRECATED!
+==========
+This technique is out of date and should no longer be used. Please use a more up to date technique like SAML. For Elgg you can use https://github.com/ColdTrick/simplesaml
+
 NTLM Login
 ==========
 
